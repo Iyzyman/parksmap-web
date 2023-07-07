@@ -37,6 +37,6 @@ jobs:
     -   name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: ./parksmap-web
+          context: .
           push: true
           tags: iyzyman/dev:latest
